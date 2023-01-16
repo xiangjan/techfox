@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class JobRunrConfig {
-
     @Bean
     public StorageProvider storageProvider(JobMapper jobMapper){
         StorageProvider storageProvider = new InMemoryStorageProvider();
